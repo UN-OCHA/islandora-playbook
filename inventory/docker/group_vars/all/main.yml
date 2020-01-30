@@ -41,3 +41,7 @@ mysql_users:
 # Used by both the webserver and crayfish role for CentOS.
 php_enablerepo: "remi-php72"
 php_packages_state: "latest"
+
+openseadragon_composer_item: "islandora/openseadragon:dev-8.x-1.x"
+
+karaf_version: 4.0.10

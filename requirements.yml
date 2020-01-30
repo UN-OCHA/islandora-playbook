@@ -52,9 +52,9 @@
 #  name: Islandora-Devops.apix
 #  version: 0.0.1
 
-- src: https://github.com/Islandora-Devops/ansible-role-blazegraph
+- src: git+https://github.com/Islandora-Devops/ansible-role-blazegraph
   name: Islandora-Devops.blazegraph
-  version: 1.0.0
+  version: master
 
 - src: https://github.com/Islandora-Devops/ansible-role-cantaloupe
   name: Islandora-Devops.cantaloupe
@@ -64,9 +64,9 @@
   name: Islandora-Devops.crayfish
   version: 1.0.0
 
-- src: https://github.com/Islandora-Devops/ansible-role-drupal-openseadragon
+- src: git+https://github.com/Islandora-Devops/ansible-role-drupal-openseadragon
   name: Islandora-Devops.drupal-openseadragon
-  version: 1.0.0
+  version: master
 
 - src: https://github.com/Islandora-Devops/ansible-role-fcrepo
   name: Islandora-Devops.fcrepo
@@ -88,9 +88,9 @@
   name: Islandora-Devops.grok
   version: 1.0.0
 
-- src: https://github.com/Islandora-Devops/ansible-role-karaf
+- src: git+https://github.com/Islandora-Devops/ansible-role-karaf
   name: Islandora-Devops.karaf
-  version: 1.0.0
+  version: master
 
 - src: https://github.com/Islandora-Devops/ansible-role-keymaster
   name: Islandora-Devops.keymaster
